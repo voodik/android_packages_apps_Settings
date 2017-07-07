@@ -36,6 +36,7 @@ import android.os.PowerManager;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.UserManager;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
 import android.widget.RemoteViews;
@@ -717,7 +718,13 @@ public class SettingsAppWidgetProvider extends AppWidgetProvider {
         RemoteViews views = buildUpdate(context);
         // Update specific list of appWidgetIds if given, otherwise default to all
         final AppWidgetManager gm = AppWidgetManager.getInstance(context);
-        gm.updateAppWidget(THIS_APPWIDGET, views);
+
+        final UserManager um =
+                (UserManager) context.getSystemService(Context.USER_SERVICE);
+
+        if (um.isUserUnlocked(UserHandle.SYSTEM)){
+                gm.updateAppWidget(THIS_APPWIDGET, views);
+        }
         checkObserver(context);
     }
 

@@ -365,8 +365,9 @@ public class WirelessSettings extends SettingsPreferenceFragment implements Inde
             p.setTitle(com.android.settingslib.Utils.getTetheringLabel(cm));
 
             // Grey out if provisioning is not available.
-            p.setEnabled(!TetherSettings
-                    .isProvisioningNeededButUnavailable(getActivity()));
+//            p.setEnabled(!TetherSettings
+//                    .isProvisioningNeededButUnavailable(getActivity()));
+            p.setEnabled(true);
         }
 
         // Remove network reset if not allowed
