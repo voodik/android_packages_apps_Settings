@@ -315,9 +315,10 @@ public class SecuritySettings extends SettingsPreferenceFragment
         PreferenceGroup iccLockGroup = (PreferenceGroup) root.findPreference(KEY_SIM_LOCK);
         Preference iccLock = root.findPreference(KEY_SIM_LOCK_SETTINGS);
 
-        if (!mIsAdmin
-                || b.getBoolean(CarrierConfigManager.KEY_HIDE_SIM_LOCK_SETTINGS_BOOL)) {
+//        if (!mIsAdmin
+//                || b.getBoolean(CarrierConfigManager.KEY_HIDE_SIM_LOCK_SETTINGS_BOOL)) {
             root.removePreference(iccLockGroup);
+/*
         } else {
             SubscriptionManager subMgr = SubscriptionManager.from(getActivity());
             TelephonyManager tm = TelephonyManager.getDefault();
@@ -369,6 +370,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 iccLockGroup.removePreference(iccLock);
             }
         }
+*/
 
         if (Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCK_TO_APP_ENABLED, 0) != 0) {
