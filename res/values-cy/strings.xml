@@ -247,6 +247,7 @@ ac ẏna gẏntaf ẏ dẏỽetpỽẏt ẏ geir hỽnnỽ ac ẏ diharebir et�
     <string name="radio_info_band_mode_label">Dewis Band Radio</string>
     <string name="radio_info_voice_network_type_label">Math y Rhwydwaith Llais:</string>
     <string name="radio_info_data_network_type_label">Math y Rhwydwaith Data:</string>
+    <string name="phone_index_label">Dewis mynegai\'r ffôn</string>
     <string name="radio_info_set_perferred_label">Gosoda pa Fath o Rwydwaith i\'w Ffafrio:</string>
     <string name="radio_info_ping_hostname_v4">Ping Hostname(www.google.com) IPv4:</string>
     <string name="radio_info_ping_hostname_v6">Ping Hostname(www.google.com) IPv6:</string>
@@ -1333,7 +1334,7 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="dark_ui_summary_on">Ymlaen / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
     <string name="dark_ui_summary_on_auto_mode_never">Ni fydd byth yn troi i ffwrdd yn awtomatig</string>
     <string name="dark_ui_summary_on_auto_mode_auto">Bydd yn troi ymlaen yn awtomatig gyda\'r wawr</string>
-    <string name="dark_ui_text">Mae\u2019r thema Tywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin Tywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
+    <string name="dark_ui_text">Mae\u2019r thema dywyll yn defnyddio cefndir du i helpu\u2019r batri byw yn hirach ar rai sgriniau. Mae amserlenni sgrin dywyll yn aros i droi ymlaen nes bod dy sgrin i ffwrdd.</string>
     <string name="screen_timeout">Terfyn amser y sgrin</string>
     <string name="screen_timeout_title">Sgrin yn troi i ffwrdd</string>
     <string name="screen_timeout_summary">Ar ôl <xliff:g id="sleep_description">%1$s</xliff:g> heb weithgaredd</string>
@@ -2771,9 +2772,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="user_credentials">Manylion defnyddiwr</string>
     <string name="user_credentials_summary">Gweld ac addasu manylion wedi eu cadw</string>
     <string name="advanced_security_title">Uwch</string>
-    <string name="credential_storage_type">Math o storfa</string>
-    <string name="credential_storage_type_hardware">Wedi\'i gefnogi gan galedwedd</string>
-    <string name="credential_storage_type_software">Meddalwedd yn unig</string>
     <string name="credentials_settings_not_available">Dyw tystnodiadau ddim ar gael ar gyfer y defnyddiwr hwn</string>
     <string name="credential_for_vpn_and_apps">Gosodwyd ar gyfer VPN ac apiau</string>
     <string name="credential_for_wifi">Gosodwyd ar gyfer Wi-Fi</string>
@@ -3364,8 +3362,8 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="keywords_sim_status">rhwydwaith, symudol, statws gwasanaeth, cryfder signal, math rhwydwaith symudol, math o rwydwaith symudol, crwydro, roaming, iccid, eid</string>
     <string name="keywords_model_and_hardware">serial number, rhif cyfres, versiwn caledwedd, caledwedd, fersiwn</string>
     <string name="keywords_android_version">android security patch level, baseband version, kernel version, fersiwn cnewyllyn, lefel patsh diogelwch android</string>
-    <string name="keywords_dark_ui_mode">thema, golau, tywyll, modd</string>
-    <string name="keywords_systemui_theme">thema tywyll</string>
+    <string name="keywords_dark_ui_mode">thema, golau, tywyll,  dywyll, modd</string>
+    <string name="keywords_systemui_theme">thema dywyll</string>
     <string name="keywords_device_feedback">byg, gwall, problem, nam</string>
     <string name="keywords_ambient_display_screen">Dangosydd amgylchynol, Dangosydd clo sgrin</string>
     <string name="keywords_lock_screen_notif">hysbysiadau, hysbysiadau sgrin cloi</string>
@@ -4444,7 +4442,7 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="notification_log_details_ranking_none">Dyw\'r gwrthrych graddio ddim yn cynnwys yr allwedd hon.</string>
     <string name="theme_customization_category">Themáu</string>
     <string name="theme_customization_device_default">Rhagosodiad y ddyfais</string>
-    <string name="display_cutout_emulation">Dangos rhic</string>
+    <string name="display_cutout_emulation">Rhic dangosydd</string>
     <string name="display_cutout_emulation_keywords">rhic dangosydd, rhic, cutout, notch</string>
     <string name="overlay_option_device_default">Rhagosodiad y ddyfais</string>
     <string name="overlay_toast_failed_to_apply">Methwyd â rhoi troshaen ar waith</string>
@@ -4474,12 +4472,12 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="bluetooth_connected_summary">Wedi cysylltu â <xliff:g name="device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_multiple_devices_summary">Wedi cysylltu â mwy nag un ddyfais</string>
     <string name="demo_mode">Modd arddangos y system mewn siopau</string>
-    <string name="dark_ui_mode">Thema tywyll</string>
+    <string name="dark_ui_mode">Thema dywyll</string>
     <string name="dark_ui_mode_disabled_summary_dark_theme_on">Ymlaen/ Wedi\u2019i analluogi dros dro oherwydd Arbedwr Batri</string>
     <string name="dark_ui_mode_disabled_summary_dark_theme_off">Wedi\u2019i droi ymlaen dros dro oherwydd Arbedwr Batri</string>
-    <string name="dark_ui_settings_dark_summary">Bydd apiau sy\u2019n gytûn hefyd yn enwid i\u2019r thema tywyll</string>
+    <string name="dark_ui_settings_dark_summary">Bydd apiau sy\u2019n gytûn hefyd yn enwid i\u2019r thema dywyll</string>
     <string name="dark_ui_settings_dialog_acknowledge">Deall yn iawn</string>
-    <string name="dark_theme_slice_title">Rhoi gynnig ar y thema Tywyll</string>
+    <string name="dark_theme_slice_title">Rhoi gynnig ar y thema dywyll</string>
     <string name="dark_theme_slice_subtitle">Mae\u2019n helpu ymestyn oes batri</string>
     <string name="quick_settings_developer_tiles">Teils gosodiadau cyflym datblygwr</string>
     <string name="winscope_trace_quick_settings_title">Olrhain WinScope</string>
